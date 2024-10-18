@@ -3,33 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Details</title>
+    <style>
+        body {
+            background: #f5f5f5; /* Light gray background */
+            font-family: Arial, sans-serif;
+        }
+        .product-container {
+            display: flex;
+            border: 4px solid #ccc; /* Border around the product */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            margin: 20px;
+            background: white; /* White background for product */
+            overflow: hidden; /* Prevent overflow */
+        }
+        .product-image {
+            width: 40%; /* Image takes 40% of container */
+            padding: 10px;
+        }
+        .product-image img {
+            width: 100%; /* Image fills the container */
+            border-radius: 15px; /* Rounded corners for image */
+        }
+        .product-details {
+            padding: 20px; /* Padding around details */
+            width: 60%; /* Details take 60% of container */
+        }
+        .product-details h2 {
+            margin: 0; /* Remove default margin */
+            font-size: 24px; /* Font size for product name */
+            color: #333; /* Dark gray color */
+        }
+        .product-details p {
+            margin: 5px 0; /* Margin for paragraphs */
+            color: #666; /* Medium gray color */
+        }
+        .product-price {
+            font-size: 20px; /* Font size for price */
+            color: #e67e22; /* Orange color for price */
+            font-weight: bold; /* Bold text */
+        }
+    </style>
 </head>
 <body>
-    
-    <h1>santosh</h1>
-    <h2>hero.com </h2>
-<picture>santosh</picture>
-
-
-
+    <div class="product-container">
+        <div class="product-image">
+            <img src="C:\Users\santo\OneDrive\Pictures\santosh photo.jpg" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h2>Santosh Kumar</h2>
+            <p class="product-price">₹999</p> <!-- Example price -->
+            <p>This is a brief description of the product. It provides essential details that help customers understand what they are purchasing.</p>
+        </div>
+    </div>
 </body>
-
-<div> 
-    <img src="C:\Users\santo\OneDrive\Pictures\santosh photo.jpg" alt="sona">
-</div>
- <style> 
-    div{
-        background-color: blue;
-    } 
-    body
-    { background: red;}
-   h1{
-
-color: green;
-width: 50%;
-height: 50%;
-scrollbar-3dlight-color: aquamarine;
-   }
- </style>
 </html>
